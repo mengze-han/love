@@ -418,3 +418,33 @@ docker docker-compose
 命令 一键处理脚本
 
 ### 保存代码
+
+### ssh代理
+
+正向代理
+
+```shell 
+ssh -FCNL localport:user@remote ip:remote port  user@jumper ip
+```
+
+反向代理
+
+```shell
+ssh -FCNR localport:user@remote ip:remote port  user@jumper ip
+```
+
+```apacheconf
+GatewayPorts yes
+```
+
+socket 代理
+
+```bash
+ssh -D localhost:1080  HostB
+```
+
+
+
+
+
+现在很多ssh client都可以设置端口转发了
