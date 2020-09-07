@@ -161,7 +161,18 @@ git remote add origin git@gitlab.jp.sbibits.com:wallet/aml/test.git
 
 
 ------
-
 `git remote -v`  查看关联远程仓库
 
 git push -u origin master  默认把mater分支提交到origin远程，之后只要git push就行了
+
+
+
+
+
+Github和gitee双向同步
+
+```
+$ git remote set-url --add origin git@xxxx.git
+```
+
+git push 就会同时同步github和gitee了，如果分别拉取和推送的话同**Push an existing Git repository**
