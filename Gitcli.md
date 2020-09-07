@@ -79,6 +79,52 @@ git config --global user.email "xu.han@sbibits.com"
 ```
 
 
+在Git中，用`HEAD`表示当前版本，也就是最新的提交`1094adb...`，上一个版本就是`HEAD^`，上上一个版本就是`HEAD^^`，当然往上100个版本写100个`^`比较容易数不过来，所以写成`HEAD~100`
+
+`git reset --hard HEAD^`  	回退到上次提交
+
+`git reset --hard HEAD^^` 	回退到上上次提交
+
+`git reset --hard HEAD~n` 	回退到上n次提交
+
+`git reset --hard commit_id`	回退到指定id
+
+`git reflog` 用来记录每一次命令
+
+`git diff HEAD -- filename` 查看工作区和版本库里面最新版本的区别
+
+
+
+撤销操作：
+
+工作区： `git checkout -- filename`  撤销工作区
+
+暂存区：`git reset HEAD <file>`  撤销暂存区,重新放回工作区
+
+已经commit的时候使用reset
+
+
+
+删除操作：
+
+暂存区删除： `git rm `
+
+误删除恢复：git checkout -- file （等于撤销工作区的操作）
+
+
+
+`git stash`  `git stash list`
+
+`git stash apply`不删除stash，需要使用`git stash drop` （`git stash apply stash@{0}`）
+
+`git stash pop`	恢复的同时删除删除stash
+
+`git cherry-pick `命令，把bug提交的修改“复制”到当前分支，避免重复劳动
+
+
+
+
+
 
 ##### Create a new repository
 
