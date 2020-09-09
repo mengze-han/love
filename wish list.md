@@ -16,4 +16,11 @@
 
 - [ ] 自己的家庭管理系统
     - [ ] mediawiki
+    - [ ] wordpress
+    - [ ] Anaconda
+    - [ ] nginx
+    - [ ] mysql
+    - [ ] postgre
+    - [ ] mongodb
+    - [ ] neo4j 
 - [ ] 自制电子宠物，接入家庭管理系统
