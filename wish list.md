@@ -29,6 +29,8 @@
         - [ ] postgre
         - [ ] mongodb
         - [ ] neo4j 
+        - [ ] dnsmasq
+        - [ ] openvpn 
 - [ ] 自制电子宠物，接入家庭管理系统
 
 
