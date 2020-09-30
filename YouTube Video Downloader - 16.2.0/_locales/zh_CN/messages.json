@@ -1,0 +1,554 @@
+{
+    "extName": {
+        "message": "YouTube视频和MP3下载器",
+        "description": "Extension name"
+    },
+    "extDescription": {
+        "message": "下载具有不同视频质量的YouTube视频：1080P，720P，480P，360p等。支持所有格式Mp3，MP4，FLV，WebM，3GP",
+        "description": "Extension description"
+    },
+    "extShortName": {
+        "message": "YouTube下载器",
+        "description": "Short extension name"
+    },
+    "optHeading": {
+        "message": "设置",
+        "description": "Options page heading"
+    },
+    "optVideoFormatsCheckboxGroupLabel": {
+        "message": "在页面下拉菜单中显示的视频格式",
+        "description": "Video formats checkbox group label"
+    },
+    "optDashRadioBothItemsLabel": {
+        "message": "包含短划线视频和音频项目（推荐）",
+        "description": "Dash checkbox label for both items"
+    },
+    "optDashRadioVideoItemsLabel": {
+        "message": "仅包含短划线视频项目（在下拉菜单中标有橙色）",
+        "description": "Dash checkbox label for video only items"
+    },
+    "optDashRadioAudioItemsLabel": {
+        "message": "仅包括短划线音频项目（在下拉菜单中标记为绿色）",
+        "description": "Dash checkbox label for audio only items"
+    },
+    "optMp3BitrateCheckboxGroupLabel": {
+        "message": "MP3转换器配置",
+        "description": "MP3 bitrate checkbox group label"
+    },
+    "optClipConverterEnabledHeading": {
+        "message": "1080p，2K和4K视频配置",
+        "description": "Clipconverter switch heading"
+    },
+    "optClipConverterEnabledSwitchLabel": {
+        "message": "启用高清视频下载",
+        "description": "Clipconverter switch label"
+    },
+    "optClipConverterEnabledSwitchNote": {
+        "message": "（注意：需要处理，不能下载受版权保护或音乐的视频）",
+        "description": "Clipconverter switch note"
+    },
+    "optDownloadsManagerEnabledHeading": {
+        "message": "下载管理器",
+        "description": "Downloads manager switch heading"
+    },
+    "optDownloadsManagerEnabledSwitchLabel": {
+        "message": "启用YouTube下载管理器",
+        "description": "Downloads manager switch label"
+    },
+    "optDownloadsManagerEnabledSwitchNote": {
+        "message": "（注意：您只能管理此扩展程序启动的下载）",
+        "description": "Downloads manager switch note"
+    },
+    "optPreferredVideoPlaybackQualitySelectLabel": {
+        "message": "设置首选视频播放质量",
+        "description": "Video playback quality select label"
+    },
+    "optExtrasConfigurationHeading": {
+        "message": "增强功能：改善您在YouTube上的用户体验",
+        "description": "Extra features heading"
+    },
+    "optEnhancerBarEnabledSwitchLabel": {
+        "message": "在视频下添加增强功能",
+        "description": "Enhancer bar switch label"
+    },
+    "optEnhancerBarEnabledSwitchNote": {
+        "message": "（YouTube电影模式，黑暗主题和来自YouTube的弹出视频）",
+        "description": "Extra features heading"
+    },
+    "optScreenshotButtonEnabledSwitchLabel": {
+        "message": "启用屏幕截图按钮",
+        "description": "Screenshot button switch label"
+    },
+    "optScreenshotButtonEnabledSwitchNote": {
+        "message": "（允许您截取视频的屏幕截图并立即将其保存到硬盘）",
+        "description": "Screenshot button note"
+    },
+    "optFloatVideoEnabledSwitchLabel": {
+        "message": "启用浮动视频",
+        "description": "Float video switch label"
+    },
+    "optFloatVideoEnabledSwitchNote": {
+        "message": "（向下滚动时可以看到视频的智能视图。视频将显示在右下角。）",
+        "description": "Float video switch note"
+    },
+    "optSmartPauseEnabledSwitchLabel": {
+        "message": "启用智能暂停",
+        "description": "Smart pause switch label"
+    },
+    "optSmartPauseEnabledSwitchNote": {
+        "message": "（一旦离开页面，当前在YouTube上播放的视频会自动暂停，并在您返回时恢复）",
+        "description": "Smart pause switch note"
+    },
+    "optRemoveAdsEnabledSwitchLabel": {
+        "message": "从YouTube中删除广告",
+        "description": "Remove ads switch label"
+    },
+    "optRemoveAdsEnabledSwitchNote": {
+        "message": "（删除横幅广告和视频内广告）",
+        "description": "Remove ads switch note"
+    },
+    "optDisableAutoplayEnabledSwitchLabel": {
+        "message": "禁用自动播放",
+        "description": "Disable autoplay switch label"
+    },
+    "optDisableAutoplayEnabledSwitchNote": {
+        "message": "（当前视频结束时停止自动加载建议的视频）",
+        "description": "Disable autoplay switch note"
+    },
+    "optHideCommentsEnabledSwitchLabel": {
+        "message": "隐藏YouTube评论",
+        "description": "Hide comments switch label"
+    },
+    "optHideCommentsEnabledSwitchNote": {
+        "message": "（隐藏YouTube视频上的所有用户评论）",
+        "description": "Hide comments switch note"
+    },
+    "optLoopVideosEnabledSwitchLabel": {
+        "message": "循环视频",
+        "description": "Loop videos switch label"
+    },
+    "optLoopVideosEnabledSwitchNote": {
+        "message": "（循环视频的高级选项）",
+        "description": "Loop videos switch note"
+    },
+    "optRemoveFeedRecommendationsEnabledSwitchLabel": {
+        "message": "删除Feed推荐",
+        "description": "Remove feed recommendations switch label"
+    },
+    "optRemoveFeedRecommendationsEnabledSwitchNote": {
+        "message": "（删除YouTube首页上的Feed推荐）",
+        "description": "Remove feed recommendations switch note"
+    },
+    "optAudioModeButtonEnabledSwitchLabel": {
+        "message": "显示音频模式按钮",
+        "description": "Audio mode switch label"
+    },
+    "optAudioModeButtonEnabledSwitchNote": {
+        "message": "（仅在不加载视频的情况下收听音频）",
+        "description": "Audio mode switch note"
+    },
+    "optVolumeControlWithMouseWheelEnabledSwitchLabel": {
+        "message": "用鼠标滚轮控制音量",
+        "description": "Volume control switch label"
+    },
+    "optVolumeControlWithMouseWheelEnabledSwitchNote": {
+        "message": "（在视频中使用鼠标滚轮来控制音量）",
+        "description": "Volume control switch note"
+    },
+    "optVideoSearchEnabledSwitchLabel": {
+        "message": "在观看视频时搜索",
+        "description": "Video search switch label"
+    },
+    "optVideoSearchEnabledSwitchNote": {
+        "message": "（通过在相关视频部分加载搜索结果，在不中断视频的情况下搜索YouTube）",
+        "description": "Video search switch note"
+    },
+    "optGeneralConfigurationHeading": {
+        "message": "常规配置",
+        "description": "General Configuration heading"
+    },
+    "optEmbeddedDownloadsEnabledLabel": {
+        "message": "在嵌入式视频上显示下载按钮",
+        "description": "Embedded downloads switch label"
+    },
+    "optCopyToClipboardButtonEnabledLabel": {
+        "message": "启用复制到剪贴板按钮",
+        "description": "Copy to clipboard button label"
+    },
+    "optQrGeneratorButtonEnabledLabel": {
+        "message": "启用QR码生成器按钮",
+        "description": "Qr code generator button label"
+    },
+    "optSaveAsDialogEnabledLabel": {
+        "message": "当我选择下载视频时显示另存为对话框",
+        "description": "Save-as dialog switch label"
+    },
+    "optSaveButtonTooltip": {
+        "message": "保存设置",
+        "description": "Save button tooltip"
+    },
+    "optSaveButtonText": {
+        "message": "保存",
+        "description": "Save button text"
+    },
+    "optResetButtonTooltip": {
+        "message": "重置为默认值",
+        "description": "Reset button tooltip"
+    },
+    "optResetButtonText": {
+        "message": "重置",
+        "description": "Reset button text"
+    },
+    "optResetConfirmationDialogText": {
+        "message": "这将重置您的设置。继续？",
+        "description": "Reset dialog text"
+    },
+    "optResetConfirmationDialogOKButton": {
+        "message": "好的",
+        "description": "Reset dialog OK button text"
+    },
+    "optResetConfirmationDialogCancelButton": {
+        "message": "取消",
+        "description": "Reset dialog Cancel button text"
+    },
+    "optMessageSettingsSaved": {
+        "message": "已保存设置。",
+        "description": "Message to show when settings are saved"
+    },
+    "optMessageSettingsSaveError": {
+        "message": "请修复错误。",
+        "description": "Message to show when settings form has errors"
+    },
+    "optMessageResetSuccess": {
+        "message": "恢复默认设置。",
+        "description": "Message to show when default options are restored"
+    },
+    "optRequiredError": {
+        "message": "{field}是必需的。",
+        "description": "Error message for required"
+    },
+    "optCopyrightsText": {
+        "message": "<small>所有扩展程序的内容受<a class=\"el-button el-button--text\" href=\"$URL$\" target=\"_blank\">版权保护</a>.</small>",
+        "description": "Options copyrights message",
+        "placeholders": {
+            "url" : {
+                "content": "$1",
+                "example": "https://addoncrop.com/copyright"
+            }
+        }
+    },
+    "popupAddonButtonTitle": {
+        "message": "下载",
+        "description": "Addon page button text"
+    },
+    "popupAboutButtonTitle": {
+        "message": "关于",
+        "description": "About page button text"
+    },
+    "popupUpdatesButtonTitle": {
+        "message": "更新",
+        "description": "Updates page button text"
+    },
+    "popupReportBugButtonTitle": {
+        "message": "报告错误",
+        "description": "Bug report button text"
+    },
+    "popupStoreButtonTitle": {
+        "message": "更多插件",
+        "description": "Promotions page button text"
+    },
+    "popupSettingsButtonTitle": {
+        "message": "设置",
+        "description": "Settings button text"
+    },
+    "popupShareButtonTitle": {
+        "message": "分享",
+        "description": "Share page button text"
+    },
+    "popupExpandButtonTitle": {
+        "message": "展开",
+        "description": "Expand page button text"
+    },
+    "popupCollapseButtonTitle": {
+        "message": "关闭",
+        "description": "Toggle button text"
+    },
+    "popupAddonPageMainDownloadTooltip": {
+        "message": "下载最佳格式",
+        "description": "Addon page main download link tooltip"
+    },
+    "popupAddonPageDownloadButtonTooltip": {
+        "message": "下载",
+        "description": "Addon page download button tooltip"
+    },
+    "popupAddonPageCopyButtonTooltip": {
+        "message": "复制到剪贴板",
+        "description": "Addon page copy to clipboard button tooltip"
+    },
+    "popupAddonPageQrButtonTooltip": {
+        "message": "生成QR码",
+        "description": "Addon page qr generator button tooltip"
+    },
+    "popupAddonPageConvertToMp3ButtonText": {
+        "message": "转换为MP3",
+        "description": "Addon page convert to mp3 button text"
+    },
+    "popupAddonPageMp3BitrateSelectLabel": {
+        "message": "MP3比特率",
+        "description": "Addon page mp3 bitrate select label"
+    },
+    "popupAddonPageTimeSliderLabel": {
+        "message": "时间",
+        "description": "Time range slider label"
+    },
+    "popupAddonPageConverterTimeFromText": {
+        "message": "转换自",
+        "description": "Converter time from text"
+    },
+    "popupAddonPageConverterTimeToText": {
+        "message": "至",
+        "description": "Converter time to text"
+    },
+    "popupAddonPageMp3DownloadButtonText": {
+        "message": "下载",
+        "description": "Mp3 download button text"
+    },
+    "popupAddonPageBackButtonText": {
+        "message": "返回",
+        "description": "Back button text"
+    },
+    "popupAddonPageDownloadStartedMessage": {
+        "message": "已开始下载。",
+        "description": "Download started message"
+    },
+    "popupAddonPageDownloadLinkCopiedMessage": {
+        "message": "已复制下载链接。”",
+        "description": "Download link copied message"
+    },
+    "popupDownloadsLinkText": {
+        "message": "下载",
+        "description": "Downloads link text"
+    },
+    "popupHomepageLinkText": {
+        "message": "主页",
+        "description": "Homepage link text"
+    },
+    "popupUserguideLinkText": {
+        "message": "用户指南",
+        "description": "Userguide link text"
+    },
+    "popupFAQsLinkText": {
+        "message": "常见问题",
+        "description": "FAQs link text"
+    },
+    "popupContactLinkText": {
+        "message": "联系",
+        "description": "Contact link text"
+    },
+    "popupCopyrightsLinkText": {
+        "message": "EULA",
+        "description": "Copyrights link text"
+    },
+    "popupUpdateSuccessText": {
+        "message": "<strong>恭喜！</strong><br>您正在运行最新版本。",
+        "description": "Already updated message"
+    },
+    "popupUpdateErrorText": {
+        "message": "<strong>更新可用！</strong><br>有一个可用的更新版本",
+        "description": "Update available message"
+    },
+    "popupUpdateDownloadButtonText": {
+        "message": "下载",
+        "description": "Update download button text"
+    },
+    "popupBugReportHeading": {
+        "message": "报告错误",
+        "description": "Bug report page heading"
+    },
+    "popupBugReportSubHeading": {
+        "message": "在<a href=\"https://imgur.com/\" class=\"el-button el-button--text\" target=\"_blank\"> Imgur </a>上托管您的屏幕截图并提供消息中的链接。",
+        "description": "Bug report page sub heading"
+    },
+    "popupEmailInputLabel": {
+        "message": "您的电子邮件",
+        "description": "Bug report email label"
+    },
+    "popupMessageInputLabel": {
+        "message": "描述问题",
+        "description": "Bug report message label"
+    },
+    "popupRequiredError": {
+        "message": "{field}是必需的。",
+        "description": "Required error message"
+    },
+    "popupEmailError": {
+        "message": "请输入有效的电子邮件。",
+        "description": "Invalid email error message"
+    },
+    "popupLengthError": {
+        "message": "长度应为{from}到{to}。",
+        "description": "Length error message"
+    },
+    "popupSubmitButtonText": {
+        "message": "提交",
+        "description": "Submit bug report button text"
+    },
+    "popupBugReportSuccessText": {
+        "message": "已成功提交错误报告。",
+        "description": "Bug report submitted message"
+    },
+    "popupBugReportWarningText": {
+        "message": "<strong>已达到限制！</strong>.<br>您在过去7天内已发送$ TOTAL $报告。",
+        "description": "Bug report limit warning message",
+        "placeholders": {
+            "total" : {
+                "content": "$1",
+                "example": "5"
+            }
+        }
+    },
+    "popupShareHeading": {
+        "message": "分享这个插件",
+        "description": "Share page heading"
+    },
+    "downloadsHeading": {
+        "message": "下载",
+        "description": "Downloads page heading"
+    },
+    "downloadsSearchPlaceholder": {
+        "message": "搜索下载",
+        "description": "Search bar placeholder text"
+    },
+    "downloadsSearchStatus": {
+        "message": "找到{{count}}次结果为\"{{search}} \"",
+        "description": "Search results status"
+    },
+    "downloadsAllTabButtonText": {
+        "message": "全部",
+        "description": "All tab button text"
+    },
+    "downloadsVideosTabButtonText": {
+        "message": "视频",
+        "description": "Videos tab button text"
+    },
+    "downloadsMusicTabButtonText": {
+        "message": "音乐",
+        "description": "Music tab button text"
+    },
+    "downloadsClearButtonText": {
+        "message": "清除",
+        "description": "Clear downloads button text"
+    },
+    "downloadsPlayButtonTooltip": {
+        "message": "播放",
+        "description": "Play button tooltip text"
+    },
+    "downloadsCopyLinkButtonTooltip": {
+        "message": "复制链接",
+        "description": "Copy link button tooltip text"
+    },
+    "downloadsShowInFolderButtonTooltip": {
+        "message": "在文件夹中显示",
+        "description": "Show download in folder button tooltip text"
+    },
+    "downloadsSizeUnknownStatus": {
+        "message": "未知大小",
+        "description": "File size unknown status text"
+    },
+    "downloadsPausedStatus": {
+        "message": "已暂停",
+        "description": "Download paused status text"
+    },
+    "downloadsCopiedSuccessMessage": {
+        "message": "已复制！",
+        "description": "Link copied success message"
+    },
+    "downloadsClearDownloadsMessage": {
+        "message": "这将永久清除下载历史记录。要继续吗？",
+        "description": "Clear downloads prompt messages"
+    },
+    "downloadsCancelDownloadMessage": {
+        "message": "你想取消下载吗？",
+        "description": "Cancel downloads prompt message"
+    },
+    "downloadsBrandingNote": {
+        "message": "由{{extName}}启动的下载将在此处显示。",
+        "description": "Note in sidebar"
+    },
+    "downloadsDeletedDownloadError": {
+        "message": "已删除",
+        "description": "Deleted download error text"
+    },
+    "downloadsError_FILE_FAILED": {
+        "message": "失败"
+    },
+    "downloadsError_FILE_ACCESS_DENIED": {
+        "message": "拒绝访问"
+    },
+    "downloadsError_FILE_NO_SPACE": {
+        "message": "存储空间不足"
+    },
+    "downloadsError_FILE_NAME_TOO_LONG": {
+        "message": "文件名太长"
+    },
+    "downloadsError_FILE_TOO_LARGE": {
+        "message": "文件太大"
+    },
+    "downloadsError_FILE_VIRUS_INFECTED": {
+        "message": "文件可能已受感染"
+    },
+    "downloadsError_FILE_TRANSIENT_ERROR": {
+        "message": "失败"
+    },
+    "downloadsError_FILE_BLOCKED": {
+        "message": "被阻止"
+    },
+    "downloadsError_FILE_SECURITY_CHECK_FAILED": {
+        "message": "安全检查失败"
+    },
+    "downloadsError_FILE_TOO_SHORT": {
+        "message": "文件太小"
+    },
+    "downloadsError_NETWORK_FAILED": {
+        "message": "网络失败"
+    },
+    "downloadsError_NETWORK_TIMEOUT": {
+        "message": "超时"
+    },
+    "downloadsError_NETWORK_DISCONNECTED": {
+        "message": "断开连接"
+    },
+    "downloadsError_NETWORK_SERVER_DOWN": {
+        "message": "服务器关闭"
+    },
+    "downloadsError_NETWORK_INVALID_REQUEST": {
+        "message": "无效的请求"
+    },
+    "downloadsError_SERVER_FAILED": {
+        "message": "服务器失败"
+    },
+    "downloadsError_SERVER_NO_RANGE": {
+        "message": "服务器范围错误"
+    },
+    "downloadsError_SERVER_BAD_CONTENT": {
+        "message": "不好的内容"
+    },
+    "downloadsError_SERVER_UNAUTHORIZED": {
+        "message": "未经授权"
+    },
+    "downloadsError_SERVER_CERT_PROBLEM": {
+        "message": "验正错误"
+    },
+    "downloadsError_SERVER_FORBIDDEN": {
+        "message": "已禁止"
+    },
+    "downloadsError_USER_CANCELED": {
+        "message": "已取消"
+    },
+    "downloadsError_USER_SHUTDOWN": {
+        "message": "关机"
+    },
+    "downloadsError_CRASH": {
+        "message": "撞毁"
+    }
+}
