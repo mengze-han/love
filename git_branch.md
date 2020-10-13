@@ -13,7 +13,7 @@ git@github.com:user/repo.git
 
 有关这些 URL 之间差异的信息，请参阅“[我应使用哪种远程 URL？](https://docs.github.com/cn/free-pro-team@latest/articles/which-remote-url-should-i-use)”
 
-### [创建远程](https://docs.github.com/cn/free-pro-team@latest/github/using-git/about-remote-repositories#创建远程)
+### 创建远程
 
 使用 `git remote add` 命令将远程 URL 与名称匹配。 例如，在命令行中输入以下命令：
 
