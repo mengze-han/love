@@ -74,8 +74,8 @@ git checkout -b branch-name origin/branch-name
 ##### Git global setup
 
 ```shell
-git config --global user.name "Xu Han"
-git config --global user.email "xu.han@sbibits.com"
+git config --global user.name "username"
+git config --global user.email your-email
 ```
 
 
@@ -129,7 +129,7 @@ git config --global user.email "xu.han@sbibits.com"
 ##### Create a new repository
 
 ```shell
-git clone git@gitlab.jp.sbibits.com:wallet/aml/test.git
+git clone git@xxxx.git
 cd test
 touch README.md
 git add README.md
@@ -144,7 +144,7 @@ git commit -m "add README"
 cd existing_folder
 git init
 # 关联远程仓库命名为origin， 可以使用git remote rm origin删除
-git remote add origin git@gitlab.jp.sbibits.com:wallet/aml/test.git
+git remote add origin git@xxxx.git
 git add .
 git commit -m "Initial commit"
 ```
@@ -155,7 +155,7 @@ git commit -m "Initial commit"
 cd existing_repo
 # git仓库迁移
 git remote rename origin old-origin
-git remote add origin git@gitlab.jp.sbibits.com:wallet/aml/test.git
+git remote add origin git@xxxx.git
 ```
 
 
